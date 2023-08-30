@@ -8,7 +8,7 @@ function About(props) {
       {props.bio && <p>{props.bio}</p>}
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
       <Links github={props.github} linkedin={props.linkedin} />
-      { /* add your <Links /> component here */}
+      {/* add your <Links /> component here */}
     </div>
   );
 }
